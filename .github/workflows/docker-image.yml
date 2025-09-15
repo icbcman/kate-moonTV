@@ -16,7 +16,7 @@ concurrency:
   cancel-in-progress: true
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: icbcman/kate-moonTV
+  IMAGE_NAME: icbcman/kate-moontv
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
